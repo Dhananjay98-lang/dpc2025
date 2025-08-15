@@ -12,7 +12,7 @@ public class Day1{
       }
     }
 
-     for(int i=0; i<n; i++){
+     for(int i=n-1; i>=start; i--){
       if(array[i]==2){
         array[i]=array[i]+array[end];
         array[end]=array[i]-array[end];
